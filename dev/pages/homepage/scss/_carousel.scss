@@ -1,0 +1,24 @@
+.carousel-container { 
+    max-width: 900px;
+    
+}
+.background-image- {
+    &1 {
+        height: 50vh;
+        background-image: linear-gradient(to bottom, rgba($color-bg-main, 0),rgba($color-bg-main,1)) , url($image-path +'/jpg/homepage-carousel-1.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    &2 {
+        height: 50vh;
+        background-image: linear-gradient(to bottom, rgba($color-bg-main, 0),rgba($color-bg-main,1)) , url($image-path +'/jpg/homepage-carousel-2.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    &3 {
+        height: 50vh;
+        background-image: linear-gradient(to bottom, rgba($color-bg-main, 0),rgba($color-bg-main,1)) , url($image-path +'/jpg/homepage-carousel-3.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}

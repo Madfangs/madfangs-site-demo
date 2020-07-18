@@ -1,0 +1,8 @@
+.close-notification {
+    width: 2rem;
+    filter: invert(60%);
+    transition: all 0.3s;
+    &:hover {
+        filter: invert(100%);
+    }
+}

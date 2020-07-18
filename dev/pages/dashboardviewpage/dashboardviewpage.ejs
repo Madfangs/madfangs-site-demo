@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madfangs</title>
+    <link rel="stylesheet" href="<%= domainRoot %>css/bundle-dashboardviewpage.css">
+</head>
+<body class='background-dark'>
+    <noscript class='lead text-muted'>The browser you are currently using doesnt support javascript. Please try to
+        access the site using a different browser.</noscript>
+    <div id="root"></div>
+    <script>const data = <%- data %>;</script>
+    <script src='<%= domainRoot %>js/bundle-dashboardviewpage.js'></script>
+</body>
+</html>

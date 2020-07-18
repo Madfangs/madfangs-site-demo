@@ -1,0 +1,97 @@
+@import "variables";
+@import "scroll-bar";
+@import "header";
+@import 'linear-loading-animation';
+@import 'notifications';
+
+
+.background-dark {
+    background-color: $color-bg-main;
+}
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.game-card-- {
+    overflow-x: auto;
+    .game-card {
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+.social-media-icons {
+    cursor: pointer;
+}
+
+#facebook-icon {
+    filter: none;
+    &:hover, &:active {
+        filter: invert(33%) sepia(11%) saturate(2910%) hue-rotate(183deg) brightness(94%) contrast(87%);
+    }
+}
+
+#twitter-icon {
+    filter: none;
+    &:hover, &:active {
+        filter: invert(51%) sepia(93%) saturate(2104%) hue-rotate(176deg) brightness(98%) contrast(93%);
+    }
+}
+
+#instagram-icon {
+    filter: none;
+    &:hover, &:active {
+        filter: invert(18%) sepia(65%) saturate(3830%) hue-rotate(303deg) brightness(96%) contrast(82%);
+    }
+}
+
+.section-three {
+    background-image: linear-gradient(to bottom, lighten($color-bg-main, 10%), $color-bg-main);
+}
+
+.sidenav-item {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover, &:active {
+        border: 1px solid lighten($color-bg-main, 20%);
+    }
+}
+.active-sidenav {
+    border: 1px solid lighten($color-bg-main, 20%);
+}
+
+
+////////////////////////
+.game-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.game-type {
+    outline: none;
+    border: none;
+}
+
+.scrim-card {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover, &active {
+        border: 1px solid lighten($color-bg-main, 20%);
+    }
+}
+
+
+/// tournament card
+.tournament-card {
+    background-color: transparent;
+}
+
+//// stats
+.rankStatsGraph {
+}

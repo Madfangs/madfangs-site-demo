@@ -1,0 +1,63 @@
+@import "variables";
+@import "scroll-bar";
+@import "carousel";
+
+
+.background-dark {
+    background-color: $color-bg-main;
+}
+.header {
+    background-color: darken($color-bg-main, 5%);
+    .logo-- {
+        width: 3.125rem;
+        .logo {
+            width: 100%;
+        }
+    }
+}
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.sign-in-btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game-card-- {
+    overflow-x: auto;
+    .game-card {
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+.section-one {
+    background-image: linear-gradient(to bottom, rgba($color-bg-main,0.8), rgba($color-bg-main,0.8)), url($image-path + 'jpg/homepage-section1-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.social-media-icons {
+    cursor: pointer;
+}
+
+#facebook-icon {
+    filter: invert(33%) sepia(11%) saturate(2910%) hue-rotate(183deg) brightness(94%) contrast(87%);
+}
+
+#twitter-icon {
+    filter: invert(51%) sepia(93%) saturate(2104%) hue-rotate(176deg) brightness(98%) contrast(93%);
+}
+
+#instagram-icon {
+    filter: invert(18%) sepia(65%) saturate(3830%) hue-rotate(303deg) brightness(96%) contrast(82%);
+}
+
+.section-three {
+    background-image: linear-gradient(to bottom, lighten($color-bg-main, 10%), $color-bg-main);
+}
